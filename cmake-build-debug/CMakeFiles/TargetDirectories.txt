@@ -1,3 +1,0 @@
-/Users/mshkts/CLionProjects/let/cmake-build-debug/CMakeFiles/let.dir
-/Users/mshkts/CLionProjects/let/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mshkts/CLionProjects/let/cmake-build-debug/CMakeFiles/rebuild_cache.dir
