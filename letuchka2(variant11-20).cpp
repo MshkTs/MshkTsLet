@@ -27,7 +27,7 @@
 
 /// название для функции не очень подходящее
 /// лучше было бы написать int count_digits(int num)
-int yap(int num) {
+int count_digits(int num) {
     if (num == 0) {
         return 1;
     }
@@ -41,7 +41,7 @@ int yap(int num) {
 
 /// название для функции не очень подходящее
 /// лучше было бы написать char* int_to_string(int num)
-char *qwe(int num) {
+char *int_to_string(int num) {
     // ost ? neg ? - не очень подходящие названия
     int ost;
     bool neg;
@@ -57,7 +57,7 @@ char *qwe(int num) {
     if (neg) {
         total_lenght += 1;
     }
-    total_lenght += yap(num);
+    total_lenght += count_digits(num);
     char *result = new char[total_lenght];
     for (int index = total_lenght - 2; index > ost; --index) {
         /// asd - не очень подходящее название
@@ -85,5 +85,5 @@ int main() {
     using namespace std;
     int n;
     std::cin >> n;
-    std::cout << qwe(n) << std::endl;
+    std::cout << int_to_string(n) << std::endl;
 }
