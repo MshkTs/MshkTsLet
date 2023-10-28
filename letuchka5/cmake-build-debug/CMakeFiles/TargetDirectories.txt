@@ -1,0 +1,3 @@
+/Users/mshkts/CLionProjects/letuchka5/cmake-build-debug/CMakeFiles/letuchka5.dir
+/Users/mshkts/CLionProjects/letuchka5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mshkts/CLionProjects/letuchka5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
